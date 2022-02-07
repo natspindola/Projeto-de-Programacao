@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatos</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <figure>
+                <img src="logo.jpg" alt="Logo" />
+            </figure>
+            <h1>Lista de contatos</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="secaoFormulario">
+            <div class="secaoFormulario__formulario">
+                <input type="text" id="campoNome" placeholder="Nome" />
+                <input type="email" id="campoEmail" placeholder="Email" />
+                <input type="tel" id="campoTelefone" placeholder="Telefone" />
+                <button id="botaoAdicionar">Adicionar</button>
+            </div>
+        </section>
+
+        <section class="secaoListaContatos">
+            <ul class="secaoListaContatos__lista">
+                <li>
+                    <p>Não há contatos na sua lista</p>
+                </li>
+                <li>
+                    <button id="removerContato"></button>
+                    <h2>Manu</h2>
+                    <p>manu@gmail.com</p>
+                    <span>9999999999</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
